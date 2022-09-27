@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">Dr.Assist</string>
+    <string name="doctorassist">Dr.Assist</string>
+    <string name="selfcheck">Self-Check</string>
+    <string name="topic">Health Topics</string>
+    <string name="bloodalcohol">Blood alcohol Index</string>
+    <string name="bodyfat">Body Fat </string>
+    <string name="bmi">Body Mass Index</string>
+    <string name="idealweight">Ideal Weight</string>
+    <string-array name="height_feet_array">
+      <!--  <item>feet and inches</item>-->
+        <item>4\'7\"</item>
+        <item>4\'8\"</item>
+        <item>4\'9\"</item>
+        <item>4\'10\"</item>
+        <item>4\'11\"</item>
+        <item>5\'</item>
+        <item>5\'1\"</item>
+        <item>5\'2\"</item>
+        <item>5\'3\"</item>
+        <item>5\'4\"</item>
+        <item>5\'5\"</item>
+        <item>5\'6\"</item>
+        <item>5\'7\"</item>
+        <item>5\'8\"</item>
+        <item>5\'9\"</item>
+        <item>5\'10\"</item>
+        <item>5\'11\"</item>
+        <item>6\'</item>
+        <item>6\'1\"</item>
+        <item>6\'2\"</item>
+        <item>6\'3\"</item>
+        <item>6\'4\"</item>
+        <item>6\'5\"</item>
+        <item>6\'6\"</item>
+        <item>6\'7\"</item>
+        <item>6\'8\"</item>
+        <item>6\'9\"</item>
+        <item>6\'10\"</item>
+        <item>6\'11\"</item>
+        <item>7\'</item>
+        <item>7\'1\"</item>
+        <item>7\'2\"</item>
+        <item>7\'3\"</item>
+        <item>7\'4\"</item>
+        <item>7\'5\"</item>
+    </string-array>
+    <string-array name="beverage_array">
+        <item>Gin or Whiskey</item>
+        <item>Beer</item>
+        <item>Wine</item>
+        <item>US Standard Drink</item>
+    </string-array>
+
+</resources>

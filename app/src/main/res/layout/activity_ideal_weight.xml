@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="25dp"
+    tools:context=".IdealWeight">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ideal Weight Calculator"
+        android:textSize="25sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10dp"
+        android:textColor="@color/purple_700"
+        />
+
+
+    <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:checkedButton="@id/maleRadioBTN">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select Gender"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            />
+        <RadioButton android:id="@+id/maleRadioBTN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="male"
+            android:onClick="onRadioButtonClicked"/>
+        <RadioButton android:id="@+id/femaleRadioBTN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="female"
+            android:onClick="onRadioButtonClicked"/>
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="Height in centimeters"
+        android:textColor="@color/black"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/heightET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter height in centimeters"
+        android:inputType="numberDecimal"
+        android:minHeight="48dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text=""
+        android:textColor="#F44336"
+        android:textSize="10sp"
+        android:id="@+id/errorTV"
+        />
+
+
+
+    <Button
+        android:id="@+id/btnPredict"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:onClick="calculateIdealWeight"
+        android:text="Calculate"
+        android:textAllCaps="false" />
+
+    <TextView
+        android:id="@+id/resultTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:text="Result is displayed here "
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+
+
+
+
+
+
+
+</LinearLayout>
